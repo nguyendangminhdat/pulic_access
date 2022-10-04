@@ -83,8 +83,17 @@
   "materials": [
     {
       "pbrMetallicRoughness": {
-        "metallicFactor": 0.5,
-        "roughnessFactor": 0.5
+        "baseColorFactor": [
+          0.7607843137254902,
+          0.7607843137254902,
+          0.7607843137254902,
+          0
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9
+      },
+      "extensions": {
+        "KHR_materials_unlit": {}
       }
     }
   ],
@@ -101,5 +110,8 @@
         }
       ]
     }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
   ]
 }
