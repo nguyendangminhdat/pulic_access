@@ -7,7 +7,8 @@
     {
       "name": "Scene",
       "nodes": [
-        1
+        1,
+        2
       ]
     }
   ],
@@ -22,6 +23,27 @@
       "children": [
         0
       ]
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.0421862353485252,
+        0.8706002411821887,
+        -0.8513631098474804,
+        1
+      ],
+      "name": "AmbientLight"
     }
   ],
   "bufferViews": [
@@ -84,16 +106,13 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.7607843137254902,
-          0.7607843137254902,
-          0.7607843137254902,
-          0
+          0.788235294117647,
+          0.788235294117647,
+          0.788235294117647,
+          1
         ],
-        "metallicFactor": 0,
-        "roughnessFactor": 0.9
-      },
-      "extensions": {
-        "KHR_materials_unlit": {}
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.5
       }
     }
   ],
@@ -110,8 +129,5 @@
         }
       ]
     }
-  ],
-  "extensionsUsed": [
-    "KHR_materials_unlit"
   ]
 }
